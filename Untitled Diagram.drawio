@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-09-28T08:34:15.038Z" agent="5.0 (Windows)" etag="c1iq7zen9TooRMhmMnCD" version="15.3.5" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-28T08:45:13.177Z" agent="5.0 (Windows)" etag="Z_wnR4KuTqzbsvioffJK" version="15.3.5" type="github">
   <diagram id="i9z5DV8Quiy5ul4YF9sL" name="Page-1">
-    <mxGraphModel dx="1038" dy="536" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1483" dy="766" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -98,10 +98,10 @@
           <mxGeometry x="840" y="200" width="140" height="100" as="geometry" />
         </mxCell>
         <mxCell id="EWIhEaEtXWLnVECfUyCJ-14" value="认款流程同意后，复制相关数据到转账记录表，同时修改流水状态为“已认款”" style="ellipse;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;" parent="1" vertex="1">
-          <mxGeometry x="480" y="680" width="200" height="80" as="geometry" />
+          <mxGeometry x="530" y="580" width="200" height="80" as="geometry" />
         </mxCell>
         <mxCell id="EWIhEaEtXWLnVECfUyCJ-21" value="&lt;span&gt;认款流程改为冲销后，修改相应对的转账记录表状态为无效，同时修改流水表中的流水状态为“未认款”&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=top;hachureGap=4;" parent="1" vertex="1">
-          <mxGeometry x="530" y="800" width="280" height="60" as="geometry" />
+          <mxGeometry x="547" y="680" width="280" height="60" as="geometry" />
         </mxCell>
         <mxCell id="EWIhEaEtXWLnVECfUyCJ-23" value="消费记录表" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;" parent="1" vertex="1">
           <mxGeometry x="305" y="860" width="120" height="60" as="geometry" />
@@ -115,14 +115,14 @@
         <mxCell id="EWIhEaEtXWLnVECfUyCJ-29" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" parent="1" source="EWIhEaEtXWLnVECfUyCJ-26" target="EWIhEaEtXWLnVECfUyCJ-23" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="EWIhEaEtXWLnVECfUyCJ-26" value="&lt;br&gt;增加一条消费记录，包括拿款和退款，退款应为负数" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=top;hachureGap=4;" parent="1" vertex="1">
+        <mxCell id="EWIhEaEtXWLnVECfUyCJ-26" value="&lt;br&gt;增加一条消费记录，包括拿款和退款" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=top;hachureGap=4;" parent="1" vertex="1">
           <mxGeometry x="105" y="880" width="125" height="70" as="geometry" />
         </mxCell>
         <mxCell id="EWIhEaEtXWLnVECfUyCJ-30" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" parent="1" source="EWIhEaEtXWLnVECfUyCJ-28" target="EWIhEaEtXWLnVECfUyCJ-23" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="EWIhEaEtXWLnVECfUyCJ-28" value="合同项目ID,认款金额（默认合同金额，可修改），客户账户ID,消费状态，备注，操作人" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;hachureGap=4;pointerEvents=0;" parent="1" vertex="1">
-          <mxGeometry x="570" y="890" width="220" height="110" as="geometry" />
+        <mxCell id="EWIhEaEtXWLnVECfUyCJ-28" value="合同项目ID,认款金额（默认合同金额，可修改），客户账户ID,消费状态（拿款，退款），备注，操作人" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;hachureGap=4;pointerEvents=0;" parent="1" vertex="1">
+          <mxGeometry x="580" y="790" width="220" height="110" as="geometry" />
         </mxCell>
         <mxCell id="EWIhEaEtXWLnVECfUyCJ-34" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" parent="1" source="EWIhEaEtXWLnVECfUyCJ-32" target="EWIhEaEtXWLnVECfUyCJ-33" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -136,6 +136,9 @@
         <mxCell id="EWIhEaEtXWLnVECfUyCJ-33" value="退款给客户，首先检查余额，不能超过余额" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=top;hachureGap=4;" parent="1" vertex="1">
           <mxGeometry x="105" y="1040" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="C7Liofxj1-OizuLrf2gV-8" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" edge="1" parent="1" source="EWIhEaEtXWLnVECfUyCJ-35" target="C7Liofxj1-OizuLrf2gV-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="EWIhEaEtXWLnVECfUyCJ-35" value="退款给客户流程表" style="whiteSpace=wrap;html=1;verticalAlign=top;hachureGap=4;" parent="1" vertex="1">
           <mxGeometry x="305" y="1040" width="120" height="60" as="geometry" />
         </mxCell>
@@ -143,13 +146,16 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="EWIhEaEtXWLnVECfUyCJ-37" value="客户名称，客户账号（从客户中自动带过来），退款金额，渠道，退款原因，申请时间，凭证附件，领导审批，财务审批" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;hachureGap=4;pointerEvents=0;" parent="1" vertex="1">
-          <mxGeometry x="600" y="1030" width="230" height="130" as="geometry" />
+          <mxGeometry x="547" y="940" width="230" height="130" as="geometry" />
         </mxCell>
         <mxCell id="C7Liofxj1-OizuLrf2gV-6" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" edge="1" parent="1" source="C7Liofxj1-OizuLrf2gV-3" target="EWIhEaEtXWLnVECfUyCJ-10">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="C7Liofxj1-OizuLrf2gV-3" value="转入" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="540" y="70" width="50" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="C7Liofxj1-OizuLrf2gV-7" value="添加一条转账记录表记录，这条记录状态为退款。" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=top;hachureGap=4;" vertex="1" parent="1">
+          <mxGeometry x="610" y="1090" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
