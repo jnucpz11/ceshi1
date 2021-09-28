@@ -1,13 +1,13 @@
-<mxfile host="app.diagrams.net" modified="2021-09-28T08:20:34.567Z" agent="5.0 (Windows)" etag="6u0VTiznGa3Xx0llO5o_" version="15.3.5" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-28T08:23:26.435Z" agent="5.0 (Windows)" etag="6tLcC66JqqfZn3GMITsP" version="15.3.5" type="github">
   <diagram id="i9z5DV8Quiy5ul4YF9sL" name="Page-1">
-    <mxGraphModel dx="1221" dy="631" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1038" dy="536" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="20aYLW1WKIlqMCxb5FEP-12" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" parent="1" source="_qh5CtxLGN5EkOG5CYsD-1" target="20aYLW1WKIlqMCxb5FEP-11" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="_qh5CtxLGN5EkOG5CYsD-1" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
+        <mxCell id="_qh5CtxLGN5EkOG5CYsD-1" value="财务" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
           <mxGeometry x="60" y="90" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="_qh5CtxLGN5EkOG5CYsD-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" target="_qh5CtxLGN5EkOG5CYsD-4" edge="1">
@@ -15,19 +15,19 @@
             <mxPoint x="245" y="120" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="_qh5CtxLGN5EkOG5CYsD-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="_qh5CtxLGN5EkOG5CYsD-4" target="_qh5CtxLGN5EkOG5CYsD-6" edge="1">
+        <mxCell id="_qh5CtxLGN5EkOG5CYsD-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="_qh5CtxLGN5EkOG5CYsD-4" target="_qh5CtxLGN5EkOG5CYsD-8" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="_qh5CtxLGN5EkOG5CYsD-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="_qh5CtxLGN5EkOG5CYsD-4" target="_qh5CtxLGN5EkOG5CYsD-8" edge="1">
+        <mxCell id="C7Liofxj1-OizuLrf2gV-4" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" edge="1" parent="1" source="_qh5CtxLGN5EkOG5CYsD-4" target="C7Liofxj1-OizuLrf2gV-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="_qh5CtxLGN5EkOG5CYsD-4" value="银行流水" style="whiteSpace=wrap;html=1;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="340" y="70" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="_qh5CtxLGN5EkOG5CYsD-6" value="客户账户" style="whiteSpace=wrap;html=1;verticalAlign=top;" parent="1" vertex="1">
-          <mxGeometry x="560" y="70" width="120" height="60" as="geometry" />
+          <mxGeometry x="630" y="70" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="_qh5CtxLGN5EkOG5CYsD-8" value="可批量更改&lt;br&gt;对应到相应的客户账户" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=top;" parent="1" vertex="1">
+        <mxCell id="_qh5CtxLGN5EkOG5CYsD-8" value="由执行者认款" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="340" y="280" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="20aYLW1WKIlqMCxb5FEP-13" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" parent="1" source="20aYLW1WKIlqMCxb5FEP-1" target="20aYLW1WKIlqMCxb5FEP-4" edge="1">
@@ -144,6 +144,12 @@
         </mxCell>
         <mxCell id="EWIhEaEtXWLnVECfUyCJ-37" value="客户名称，客户账号（从客户中自动带过来），退款金额，渠道，退款原因，申请时间，凭证附件，领导审批，财务审批" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;hachureGap=4;pointerEvents=0;" parent="1" vertex="1">
           <mxGeometry x="600" y="1030" width="230" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="C7Liofxj1-OizuLrf2gV-5" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" edge="1" parent="1" source="C7Liofxj1-OizuLrf2gV-3" target="_qh5CtxLGN5EkOG5CYsD-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="C7Liofxj1-OizuLrf2gV-3" value="转入" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="540" y="70" width="50" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
